@@ -1,0 +1,41 @@
+.about-page {
+  min-height: 100vh;
+  padding: 3rem 2rem 5rem;
+  background: linear-gradient(135deg, #07111f 0%, #13233b 100%);
+  color: #f7f9fc;
+}
+
+.about-page p,
+.about-page li,
+.about-page h2,
+.about-page h3,
+.about-page h4 {
+  color: #f7f9fc;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+.about-header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  color: #dfe7f2;
+}
+
+.about-content strong {
+  color: #7ee7c7;
+}

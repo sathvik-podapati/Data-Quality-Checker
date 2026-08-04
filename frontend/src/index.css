@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #07111f;
+  --bg-secondary: #13233b;
+  --bg-card: rgba(255, 255, 255, 0.08);
+  --bg-card-strong: rgba(255, 255, 255, 0.12);
+  --border-dashed: #7ee7c7;
+  --border-subtle: rgba(255, 255, 255, 0.14);
+  --text-primary: #f7f9fc;
+  --text-secondary: #dfe7f2;
+  --text-on-light: #07111f;
+  --text-on-light-secondary: #334155;
+  --accent-blue: #6fa8ff;
+  --accent-blue-strong: #3d77ff;
+  --accent-green: #3ecf8e;
+  --accent-green-strong: #2ea8a2;
+  --accent-yellow: #f6c36b;
+  --accent-orange: #ff8a7a;
+  --accent-red: #ff8a7a;
+  --shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+  --bg-hover: rgba(255, 255, 255, 0.12);
+}
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  color: var(--text-primary);
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p, span, li, label, td, th, button {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  color: #0f172a;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #64748b;
+}
+
+a {
+  transition: color 0.2s, transform 0.2s;
+}
